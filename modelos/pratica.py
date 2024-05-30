@@ -1,12 +1,18 @@
-'''
 class Musica:
-    def __init__(self, nome='', artista='', duracao=0):
+    def __init__(self, nome, artista, duracao):
         self.nome = nome
         self.artista = artista
         self.duracao = duracao
+    
+    def __str__(self):
+        return f'{self.nome} | {self.artista} | {self.duracao}'
 
-musica1 = Musica(nome='Se', artista='Djavan', duracao=300 'segundos')
-'''
+musica1 = Musica('Se', 'Djavan', 300)
+
+print('Música favorita')
+print(musica1)
+
+print('------------------------------------')
 
 class Carro:
     def __init__(self, modelo, cor, ano):
