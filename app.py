@@ -5,6 +5,7 @@ restaurante_mexicano = Restaurante('Mexican Food', 'Mexicana')
 restaurante_japones = Restaurante('Japa', 'Japonesa')
 
 restaurante_praca.receber_avaliacao('Ale', 9)
+restaurante_praca.receber_avaliacao('Maria', 10)
 
 restaurante_mexicano.alterar_estado()
 

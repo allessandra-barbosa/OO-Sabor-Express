@@ -15,9 +15,9 @@ class Restaurante:
     
     @classmethod
     def listar_restaurantes(cls):
-        print(f'{'Nome do restaurante'.ljust(20)} | {'Cateroria'.ljust(20)} | {'Status'}')
+        print(f'{'Nome do restaurante'.ljust(20)} | {'Cateroria'.ljust(20)} | {'Avaliação'.ljust(20)} | {'Status'.ljust(20)}')
         for restaurante in cls.restaurantes:
-            print(f'{restaurante._nome.ljust(20)} | {restaurante._categoria.ljust(20)} | {restaurante.ativo}')
+            print(f'{restaurante._nome.ljust(20)} | {restaurante._categoria.ljust(20)} | {str(restaurante.media_avaliacoes.ljust(20))} | {restaurante.ativo}')
 
     @property
     def ativo(self):
