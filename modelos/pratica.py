@@ -49,3 +49,5 @@ restaurante1 = Restaurante('Lanchinho Feliz', 'Lanche', True, 'Rua Lago, 216', 1
 
 print('Restaurantes')
 print(restaurante1)
+
+print('------------------------------------')
